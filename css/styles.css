@@ -100,3 +100,36 @@ h5 {
     width: 800px;
     height: auto;
 }
+
+h4 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.mid-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    text-align: center;
+    width: 200px;
+    gap: 10px;
+    margin: 20px;
+}
+
+.group-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.is {
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3882f6;
+    width: 200px;
+    height: 200px;
+}
