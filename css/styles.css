@@ -58,7 +58,7 @@ h3 {
     margin: 0;
 }
 
-button {
+.button-1 {
     background-color: #3882f6;
     color: white;
     font-size: 15px;
@@ -73,20 +73,12 @@ button {
     margin-top: 10px;
 }
 
-.group-4 {
-    background-color: #d03943;
-    margin-top: 80px;
-    margin-left: 160px;
-    margin-right: 160px;
-    margin-bottom: 80px;
-}
-
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #800e13;
-    padding: 20px;
+    background-color: #1f2937;
+    padding: 40px;
 }
 
 h5 {
@@ -132,4 +124,72 @@ h4 {
     border-color: #3882f6;
     width: 200px;
     height: 200px;
+}
+
+.group-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 160px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.signature {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0px;
+    gap: 0px;
+    height: 40px;
+}
+
+.button-2 {
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    flex-grow: 0;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin: 0;
+}
+
+.group-4 {
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    
 }
